@@ -9,7 +9,7 @@ CREATE TABLE `pets` (
     `sizeID` INT, # This will link to the size table to prevent dirty data
     `weight` FLOAT, # This will be in pounds
     `fixed` BOOLEAN,
-    `houseTrained` BOOLEAN, # Can be null for not aplicable situations
+    `houseTrained` BOOLEAN, # Can be null for not applicable situations
     `description` TEXT,
     `admittedOn` DATETIME,
     `adopted` BOOLEAN,
